@@ -1,10 +1,117 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>test</title>
-  </head>
 
-  <body>
-    <h1>안녕하세요</h1>
-  </body>
+<head>
+    <title>Poet</title>
+    <meta name="Viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1">
+    <style>
+        @font-face {
+            font-family: 'HsGlidingSerif';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2604-1@1.0/HSHwalkongSerif-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-display: swap;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 960px;
+            margin: 0 auto;
+            background-color: #f5f5f5;
+            font-family: 'HsGlidingSerif', serif;
+            padding-top: 60px;
+        }
+
+        #section {
+            width: 900px;
+            float: left;
+            background-color: #e8ecf8;
+            padding: 40px;
+        }
+
+        #section h1 {
+            font-size: 35px;
+            margin-bottom: 12px;
+            color: #111;
+            text-align: center;
+        }
+
+        #section .author {
+            font-size: 18px;
+            margin-bottom: 23px;
+            color: #666;
+            text-align: right;
+        }
+
+        #section .content {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        @media screen and (max-width: 767px) {
+            body {
+                width: auto;
+                padding: 15px;
+                padding-top: 20px;
+            }
+
+            #section {
+                width: auto;
+                float: none;
+                padding: 25px 20px;
+            }
+
+            #section h1 {
+                font-size: 24px;
+                margin-bottom: 8px;
+            }
+
+            #section .author {
+                font-size: 14px;
+                margin-bottom: 25px;
+            }
+
+            #section .content {
+                font-size: 15px;
+                line-height: 1.8;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="section">
+        <h1>사랑</h1>
+
+        <p class="author">이성복</p>
+
+        <p class="content">
+            한참동안 그대로 있었다<br>
+            썩었는가 사랑아<br>
+            <br>
+            사랑은 나를 버리고 그대에게로 간다<br>
+            사랑은 그대를 버리고 세월로 간다<br>
+            <br>
+            잊혀진 상처의 늙은 자리는 환하다<br>
+            환하고 아프다<br>
+            환하고 아픈 자리로 가리라<br>
+            앓은 꿈이 다시 세월을 얻을 때<br>
+            <br>
+            공터에 뜬 무지개가<br>
+            세월 속에 다시 아플 때<br>
+            <br>
+            몸 얻지 못한 마음의 입술이<br>
+            어느 풀잎자리를 더듬으며<br>
+            말 얻지 못한 꿈을 더듬으리라
+        </p>
+    </div>
+
+</body>
+
 </html>
